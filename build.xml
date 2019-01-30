@@ -162,7 +162,7 @@
     <mkdir dir="${maven.test.reports}"/>
     <junit printSummary="yes" haltonerror="false" haltonfailure="false" fork="true" dir=".">
       <sysproperty key="basedir" value="."/>
-      <formatter type="xml"/>
+      <formatter type="html"/>
       <formatter type="plain" usefile="false"/>
      <classpath>
      	<fileset dir="${project.3rdpartylibdir}"/>
